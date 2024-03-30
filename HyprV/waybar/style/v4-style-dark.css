@@ -44,8 +44,8 @@ tooltip label{
 }
 
 #custom-launch_wofi,
-#custom-launch_firefox,
-#custom-launch_thunderbird,
+#custom-launch_chrome,
+#custom-launch_steam,
 #custom-launch_thunar,
 #custom-launch_kitty,
 #custom-lock_screen,
@@ -90,8 +90,8 @@ tooltip label{
     margin-right: 0px;
 }
 
-#custom-launch_firefox, 
-#custom-launch_thunderbird,
+#custom-launch_chrome, 
+#custom-launch_steam,
 #custom-launch_thunar,
 #custom-launch_wofi,
 #custom-launch_kitty,
@@ -102,7 +102,7 @@ tooltip label{
     margin-right: 20px;
 }
 
-#custom-launch_firefox, 
+#custom-launch_chrome, 
 #custom-launch_kitty {
     font-size: 20px;
 }

@@ -8,8 +8,8 @@
     "height": 25,
     "modules-left": [
         "custom/launch_wofi",
-        "custom/launch_firefox",
-        "custom/launch_thunderbird",
+        "custom/launch_chrome",
+        "custom/launch_steam",
         "custom/launch_kitty",
         "custom/launch_thunar"
     ],
@@ -20,15 +20,15 @@
         "~/.config/HyprV/waybar/conf/mesu.jsonc"
     ],
 
-    "custom/launch_firefox": {
-        "format": "",
-        "on-click": "firefox",
+    "custom/launch_chrome": {
+        "format": "",
+        "on-click": "google-chrome-stable",
         "tooltip": false
     },
 
-    "custom/launch_thunderbird": {
-        "format": "󰇰",
-        "on-click": "thunderbird",
+    "custom/launch_steam": {
+        "format": "",
+        "on-click": "steam",
         "tooltip": false
     },
 
