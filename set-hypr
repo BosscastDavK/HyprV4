@@ -39,8 +39,16 @@ nvidia_stage=(
 
 #the main packages
 install_stage=(
-    amd-ucode
-    bash-completion
+    gamescope-session-git
+    gamescope-session-steam-git
+    hyprcursor-git
+    hyprland-git
+    modrinth-app-bin
+    proton-ge-custom-bin
+    sddm-git
+    waybar-cava-git
+    xdg-desktop-portal-hyprland-git
+    xorg-xwayland-explicit-sync-git
     blueman
     bluez
     bluez-utils
@@ -50,38 +58,29 @@ install_stage=(
     discord
     file-roller
     gamescope
-    gamescope-session-git
-    gamescope-session-steam-git
     grim
     gparted
     gvfs
-    hyprcursor-git
-    hyprland-git
     hyprlang
     insync
     kitty
     lxappearance
     mako
-    modrinth-app-bin
     mpv
     mpv
     nano
     network-manager-applet
     noto-fonts-emoji
-    ntfs-3g
     nwg-look-bin
     openssh
     pamixer
     papirus-icon-theme
     pavucontrol
-    proton-ge-custom-bin
     seahorse
-    sddm-git
     sddm-theme-astronaut
     slurp
     starship
     steam
-    sudo
     swappy
     swaylock-effects
     swww
@@ -89,18 +88,21 @@ install_stage=(
     thunar-archive-plugin
     ttf-jetbrains-mono-nerd
     unzip
-    waybar-cava-git
     winetricks
     wlogout
     wofi
     xfce4-settings
     xdg-desktop-portal-gtk
-    xdg-desktop-portal-hyprland-git
     xone-dkms
-    xorg-xwayland-explicit-sync-git
     xorg-xwininfo
     xwaylandvideobridge
     yazi
+    pipewire
+    lib32-pipewire
+    wireplumber
+    pipewire-alsa
+    pipewire-pulse
+    razer-nari-pipewire-profile
 )
 
 for str in ${myArray[@]}; do
