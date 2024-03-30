@@ -39,40 +39,68 @@ nvidia_stage=(
 
 #the main packages
 install_stage=(
-    kitty 
-    mako 
-    waybar
-    swww 
-    swaylock-effects 
-    wofi 
-    wlogout 
-    xdg-desktop-portal-hyprland 
-    swappy 
-    grim 
-    slurp 
-    thunar 
+    amd-ucode
+    bash-completion
+    blueman
+    bluez
+    bluez-utils
+    brightnessctl
     btop
-    firefox
-    thunderbird
-    mpv
-    pamixer 
-    pavucontrol 
-    brightnessctl 
-    bluez 
-    bluez-utils 
-    blueman 
-    network-manager-applet 
-    gvfs 
-    thunar-archive-plugin 
+    btrfs-progs
+    discord
     file-roller
-    starship 
-    papirus-icon-theme 
-    ttf-jetbrains-mono-nerd 
-    noto-fonts-emoji 
-    lxappearance 
-    xfce4-settings
+    gamescope
+    gamescope-session-git
+    gamescope-session-steam-git
+    grim
+    gparted
+    gvfs
+    hyprcursor-git
+    hyprland-git
+    hyprlang
+    insync
+    kitty
+    lxappearance
+    mako
+    modrinth-app-bin
+    mpv
+    mpv
+    nano
+    network-manager-applet
+    noto-fonts-emoji
+    ntfs-3g
     nwg-look-bin
-    sddm
+    openssh
+    pamixer
+    papirus-icon-theme
+    pavucontrol
+    proton-ge-custom-bin
+    seahorse
+    sddm-git
+    sddm-theme-astronaut
+    slurp
+    starship
+    steam
+    sudo
+    swappy
+    swaylock-effects
+    swww
+    thunar
+    thunar-archive-plugin
+    ttf-jetbrains-mono-nerd
+    unzip
+    waybar-cava-git
+    winetricks
+    wlogout
+    wofi
+    xfce4-settings
+    xdg-desktop-portal-gtk
+    xdg-desktop-portal-hyprland-git
+    xone-dkms
+    xorg-xwayland-explicit-sync-git
+    xorg-xwininfo
+    xwaylandvideobridge
+    yazi
 )
 
 for str in ${myArray[@]}; do
