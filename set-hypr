@@ -31,6 +31,7 @@ prep_stage=(
 
 #software for nvidia GPU only
 nvidia_stage=(
+    mkinitcpio-firmware
     linux-headers 
     nvidia-dkms 
     nvidia-settings 
@@ -259,13 +260,13 @@ if [[ $INST == "Y" || $INST == "y" ]]; then
     
         # update config
         sudo sed -i 's/MODULES=()/MODULES=(nvidia nvidia_modeset nvidia_uvm nvidia_drm)/' /etc/mkinitcpio.conf
-        sudo mkinitcpio --config /etc/mkinitcpio.conf --generate /boot/initramfs-custom.img
+        sudo mkinitcpio -P
         echo -e "options nvidia-drm modeset=1" | sudo tee -a /etc/modprobe.d/nvidia.conf &>> $INSTLOG
     fi
 
     # Install the correct hyprland version
     echo -e "$CNT - Installing Hyprland, this may take a while..."   
-    install_software hyprland
+    install_software hyprland-git hyprcursor-git
 
     # Stage 1 - main components
     echo -e "$CNT - Installing main components, this may take a while..."
