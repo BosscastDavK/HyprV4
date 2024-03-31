@@ -60,6 +60,8 @@ install_stage=(
     btrfs-progs
     discord
     file-roller
+    wine-stable
+    vkd3d-git
     gamescope
     grim
     gparted
