@@ -59,7 +59,9 @@ install_stage=(
     swappy 
     grim 
     slurp 
-    thunar 
+    thunar
+    gvfs-smb
+    smbclient
     btop
     mpv
     pamixer 
