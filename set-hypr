@@ -64,6 +64,7 @@ install_stage=(
     hyprlang
     insync
     kitty
+    lutris
     lxappearance
     mako
     mpv
