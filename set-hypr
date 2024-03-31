@@ -81,10 +81,7 @@ install_stage=(
     nwg-look-bin
     sddm-git
     sddm-theme-astronaut
-
-
     discord
-    wine-stable
     vkd3d-git
     gparted
     insync
@@ -92,9 +89,6 @@ install_stage=(
     openssh
     seahorse
     steam
-    gamescope
-    gamescope-session-git
-    gamescope-session-steam-git
     unzip
     winetricks
     xdg-desktop-portal-gtk
