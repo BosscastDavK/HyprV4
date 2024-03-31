@@ -31,7 +31,6 @@ prep_stage=(
 
 #software for nvidia GPU only
 nvidia_stage=(
-    mkinitcpio-firmware
     linux-headers 
     nvidia-dkms 
     nvidia-settings 
@@ -43,8 +42,6 @@ nvidia_stage=(
 install_stage=(
     gamescope-session-git
     gamescope-session-steam-git
-    hyprcursor-git
-    hyprland-git
     modrinth-app-bin
     proton-ge-custom-bin
     sddm-git
@@ -266,7 +263,7 @@ if [[ $INST == "Y" || $INST == "y" ]]; then
 
     # Install the correct hyprland version
     echo -e "$CNT - Installing Hyprland, this may take a while..."   
-    install_software hyprland-git hyprcursor-git
+    install_software hyprcursor-git hyprland-git
 
     # Stage 1 - main components
     echo -e "$CNT - Installing main components, this may take a while..."
