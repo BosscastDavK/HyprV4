@@ -38,6 +38,14 @@ nvidia_stage=(
     libva-nvidia-driver-git
 )
 
+#hyprland
+hyprland_stage=(
+    xorg-xwayland-explicit-sync-git
+    hyprcursor-git
+    hyprland-git
+    xdg-desktop-portal-hyprland-git
+)
+
 #the main packages
 install_stage=(
     gamescope-session-git
@@ -261,7 +269,9 @@ if [[ $INST == "Y" || $INST == "y" ]]; then
 
     # Install the correct hyprland version
     echo -e "$CNT - Installing Hyprland, this may take a while..."   
-    install_software "xorg-xwayland-explicit-sync-git hyprcursor-git hyprland-git xdg-desktop-portal-hyprland-git"
+    for SOFTWR in ${hyprland_stage[@]}; do
+        install_software $SOFTWR
+    done
     # Stage 1 - main components
     echo -e "$CNT - Installing main components, this may take a while..."
     for SOFTWR in ${install_stage[@]}; do
