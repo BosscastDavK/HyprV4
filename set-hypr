@@ -90,6 +90,7 @@ install_stage=(
     razer-nari-pipewire-profile
     sddm-git
     sddm-theme-astronaut
+    qt5-styleplugins
     discord
     gparted
     insync
