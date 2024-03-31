@@ -94,7 +94,6 @@ install_stage=(
     gparted
     insync
     lutris
-    openssh
     seahorse
     steam
     unzip
