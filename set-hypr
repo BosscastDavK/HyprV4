@@ -67,7 +67,6 @@ install_stage=(
     lxappearance
     mako
     mpv
-    mpv
     nano
     network-manager-applet
     noto-fonts-emoji
