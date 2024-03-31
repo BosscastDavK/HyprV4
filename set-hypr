@@ -90,6 +90,10 @@ install_stage=(
     razer-nari-pipewire-profile
     sddm-git
     sddm-theme-astronaut
+    adwaita-qt5-git
+    qt5-x11extras
+    kvantum-qt5
+    qt5-wayland
     qt5-styleplugins
     discord
     gparted
