@@ -68,6 +68,8 @@ install_stage=(
     bluez 
     bluez-utils 
     blueman 
+    xone-dkms
+    xorg-xwininfo
     network-manager-applet 
     gvfs 
     thunar-archive-plugin 
@@ -79,6 +81,13 @@ install_stage=(
     lxappearance 
     xfce4-settings
     nwg-look-bin
+    yazi
+    pipewire
+    lib32-pipewire
+    wireplumber
+    pipewire-alsa
+    pipewire-pulse
+    razer-nari-pipewire-profile
     sddm-git
     sddm-theme-astronaut
     discord
@@ -91,16 +100,7 @@ install_stage=(
     unzip
     winetricks
     xdg-desktop-portal-gtk
-    xone-dkms
-    xorg-xwininfo
     xwaylandvideobridge
-    yazi
-    pipewire
-    lib32-pipewire
-    wireplumber
-    pipewire-alsa
-    pipewire-pulse
-    razer-nari-pipewire-profile
     modrinth-app-bin
     proton-ge-custom-bin
 )
