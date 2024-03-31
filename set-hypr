@@ -48,57 +48,57 @@ hyprland_stage=(
 
 #the main packages
 install_stage=(
-    modrinth-app-bin
-    proton-ge-custom-bin
-    sddm-git
-    waybar-cava-git
-    blueman
-    bluez
-    bluez-utils
-    brightnessctl
+    kitty 
+    mako 
+    waybar
+    swww 
+    swaylock-effects 
+    wofi 
+    wlogout 
+    xdg-desktop-portal-hyprland 
+    swappy 
+    grim 
+    slurp 
+    thunar 
     btop
-    btrfs-progs
-    discord
+    firefox
+    thunderbird
+    mpv
+    pamixer 
+    pavucontrol 
+    brightnessctl 
+    bluez 
+    bluez-utils 
+    blueman 
+    network-manager-applet 
+    gvfs 
+    thunar-archive-plugin 
     file-roller
+    starship 
+    papirus-icon-theme 
+    ttf-jetbrains-mono-nerd 
+    noto-fonts-emoji 
+    lxappearance 
+    xfce4-settings
+    nwg-look-bin
+    sddm-git
+    sddm-theme-astronaut
+
+
+    discord
     wine-stable
     vkd3d-git
-    gamescope
-    grim
     gparted
-    gvfs
-    hyprlang
     insync
-    kitty
     lutris
-    lxappearance
-    mako
-    mpv
-    nano
-    network-manager-applet
-    noto-fonts-emoji
-    nwg-look-bin
     openssh
-    pamixer
-    papirus-icon-theme
-    pavucontrol
     seahorse
-    sddm-theme-astronaut
-    slurp
-    starship
     steam
+    gamescope
     gamescope-session-git
     gamescope-session-steam-git
-    swappy
-    swaylock-effects
-    swww
-    thunar
-    thunar-archive-plugin
-    ttf-jetbrains-mono-nerd
     unzip
     winetricks
-    wlogout
-    wofi
-    xfce4-settings
     xdg-desktop-portal-gtk
     xone-dkms
     xorg-xwininfo
@@ -110,8 +110,6 @@ install_stage=(
     pipewire-alsa
     pipewire-pulse
     razer-nari-pipewire-profile
-    gamescope-session-git
-    gamescope-session-steam-git
     modrinth-app-bin
     proton-ge-custom-bin
 )
