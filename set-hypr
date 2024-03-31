@@ -48,8 +48,6 @@ hyprland_stage=(
 
 #the main packages
 install_stage=(
-    gamescope-session-git
-    gamescope-session-steam-git
     modrinth-app-bin
     proton-ge-custom-bin
     sddm-git
@@ -86,6 +84,8 @@ install_stage=(
     slurp
     starship
     steam
+    gamescope-session-git
+    gamescope-session-steam-git
     swappy
     swaylock-effects
     swww
@@ -108,6 +108,10 @@ install_stage=(
     pipewire-alsa
     pipewire-pulse
     razer-nari-pipewire-profile
+    gamescope-session-git
+    gamescope-session-steam-git
+    modrinth-app-bin
+    proton-ge-custom-bin
 )
 
 for str in ${myArray[@]}; do
