@@ -91,7 +91,6 @@ install_stage=(
     pipewire-pulse
     razer-nari-pipewire-profile
     sddm-git
-    sddm-theme-astronaut
     adwaita-qt5-git
     qt5-x11extras
     kvantum-qt5
