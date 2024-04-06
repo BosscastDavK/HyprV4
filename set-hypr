@@ -97,6 +97,7 @@ install_stage=(
     kvantum-qt5
     qt5-styleplugins
     downgrade
+    google-chrome
     cursor-appimage
     discord
     gparted
