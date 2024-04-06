@@ -42,6 +42,7 @@ nvidia_stage=(
 #hyprland
 hyprland_stage=(
     xorg-xwayland-explicit-sync-git
+    tomlplusplus
     hyprcursor-git
     hyprland-git
     xdg-desktop-portal-hyprland-git
