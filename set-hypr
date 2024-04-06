@@ -10,7 +10,6 @@
 # Define the software that would be inbstalled 
 #Need some prep work
 prep_stage=(
-    openssh-git
     mkinitcpio-firmware
     wayland-git
     qt5-wayland 
