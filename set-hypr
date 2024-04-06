@@ -11,7 +11,6 @@
 #Need some prep work
 prep_stage=(
     mkinitcpio-firmware
-    wayland-git
     qt5-wayland 
     qt5ct
     qt6-wayland 
