@@ -50,7 +50,7 @@ hyprland_stage=(
 
 #the main packages
 install_stage=(
-    kitty 
+    kitty-git 
     mako 
     waybar
     swww 
