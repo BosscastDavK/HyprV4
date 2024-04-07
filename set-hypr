@@ -105,6 +105,7 @@ install_stage=(
     lutris
     seahorse
     steam
+    adwsteamgtk
     unzip
     winetricks
     xdg-desktop-portal-gtk
